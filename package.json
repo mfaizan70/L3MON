@@ -1,0 +1,38 @@
+{
+  "name": "l3mon",
+  "version": "1.0.0",
+  "description": "Layer 3 Advanced Network Management and Monitoring System",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfaizan70/L3MON.git"
+  },
+  "author": "D3VL",
+  "bugs": {
+    "url": "https://github.com/mfaizan70/L3MON/issues"
+  },
+  "homepage": "https://github.com/mfaizan70/L3MON#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.1",
+    "systeminformation": "^5.17.0",
+    "sqlite3": "^5.1.6",
+    "dotenv": "^16.3.1",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.1.0",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
